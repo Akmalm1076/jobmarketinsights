@@ -1,0 +1,16 @@
+# .gitignore content
+
+# Jupyter Notebook Checkpoints and Temporary Files
+.ipynb_checkpoints/
+*~
+
+# Ignore Python build files
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+
+# Ignore data checkpoints we found during staging
+data/.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
